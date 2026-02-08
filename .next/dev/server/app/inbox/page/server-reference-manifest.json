@@ -1,0 +1,20 @@
+{
+  "node": {
+    "40c1938adbeb3277282e6e523f69c769672846e16a": {
+      "workers": {
+        "app/inbox/page": {
+          "moduleId": "[project]/.next-internal/server/app/inbox/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/inbox/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "deleteCapsule",
+          "filename": "app/inbox/actions.ts"
+        }
+      },
+      "layer": {
+        "app/inbox/page": "action-browser"
+      },
+      "exportedName": "deleteCapsule",
+      "filename": "app/inbox/actions.ts"
+    }
+  },
+  "edge": {}
+}

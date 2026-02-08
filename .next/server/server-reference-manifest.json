@@ -1,0 +1,36 @@
+{
+  "node": {
+    "40ca3b36036c6c0931a9eab649977c2be80c5eba60": {
+      "workers": {
+        "app/inbox/page": {
+          "moduleId": 10521,
+          "async": false,
+          "exportedName": "deleteCapsule",
+          "filename": "app/inbox/actions.ts"
+        }
+      },
+      "layer": {
+        "app/inbox/page": "action-browser"
+      },
+      "filename": "app/inbox/actions.ts",
+      "exportedName": "deleteCapsule"
+    },
+    "40aaf08d577b19564a27451c5a2629a9c0948819fe": {
+      "workers": {
+        "app/open/[id]/page": {
+          "moduleId": 11032,
+          "async": false,
+          "exportedName": "markOpened",
+          "filename": "app/open/[id]/actions.ts"
+        }
+      },
+      "layer": {
+        "app/open/[id]/page": "action-browser"
+      },
+      "filename": "app/open/[id]/actions.ts",
+      "exportedName": "markOpened"
+    }
+  },
+  "edge": {},
+  "encryptionKey": "miTONUCDuM4NulZLDiD+W0JB0IQEGs+GOWwMe1BiQes="
+}

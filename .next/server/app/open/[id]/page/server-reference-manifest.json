@@ -1,0 +1,20 @@
+{
+  "node": {
+    "40aaf08d577b19564a27451c5a2629a9c0948819fe": {
+      "workers": {
+        "app/open/[id]/page": {
+          "moduleId": 11032,
+          "async": false,
+          "exportedName": "markOpened",
+          "filename": "app/open/[id]/actions.ts"
+        }
+      },
+      "layer": {
+        "app/open/[id]/page": "action-browser"
+      },
+      "exportedName": "markOpened",
+      "filename": "app/open/[id]/actions.ts"
+    }
+  },
+  "edge": {}
+}
