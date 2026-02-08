@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Time Capsule",
+    "slug": "time-capsule-mobile",
+    "version": "1.0.0",
+    "scheme": "nostalgiccapsule",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1a1a2e"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.timecapsule.app",
+      "usesAppleSignIn": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1a1a2e"
+      },
+      "package": "com.timecapsule.app"
+    },
+    "plugins": [
+      "expo-camera",
+      "expo-secure-store",
+      [
+        "expo-apple-authentication",
+        {}
+      ]
+    ]
+  }
+}

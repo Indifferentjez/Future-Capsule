@@ -1,0 +1,59 @@
+/**
+ * Antique Desk theme — ONLY applied inside [data-open-theme="antique"].
+ * Loaded in app but has no effect outside the opening ceremony wrapper.
+ * DO NOT use these variables in :root or [data-theme=...].
+ */
+
+[data-open-theme="antique"] {
+  --antique-parchment: #f1e9d2;
+  --antique-paper: #e0d3af;
+  --antique-paper-crease: #caac77;
+  --antique-leather-deep: #3c2f2f;
+  --antique-leather-mid: #886243;
+  --antique-ink-depth: #230701;
+  --antique-brass: #c7a12a;
+  --antique-patina: #2e6f40;
+  --antique-wax: #660033;
+  --antique-ink: #1b1b1b;
+  --antique-ink-secondary: #3a2f2a;
+}
+
+[data-open-theme="antique"] .opening-ceremony-bg {
+  background: linear-gradient(180deg, var(--antique-paper) 0%, var(--antique-parchment) 50%, var(--antique-paper-crease) 100%);
+  min-height: 100vh;
+}
+
+[data-open-theme="antique"] .opening-ceremony-vignette {
+  box-shadow: inset 0 0 15rem 4rem rgba(60, 47, 47, 0.25);
+}
+
+[data-open-theme="antique"] .opening-ceremony-card {
+  background: var(--antique-parchment);
+  color: var(--antique-ink);
+  border: 2px solid var(--antique-paper-crease);
+  box-shadow: 0 4px 24px rgba(35, 7, 1, 0.15);
+}
+
+[data-open-theme="antique"] .opening-ceremony-ink {
+  color: var(--antique-ink);
+}
+
+[data-open-theme="antique"] .opening-ceremony-ink-secondary {
+  color: var(--antique-ink-secondary);
+}
+
+[data-open-theme="antique"] .opening-ceremony-accent {
+  color: var(--antique-brass);
+  border-color: var(--antique-brass);
+}
+
+[data-open-theme="antique"] .opening-ceremony-leather {
+  background: var(--antique-leather-deep);
+  color: var(--antique-parchment);
+}
+
+[data-open-theme="antique"] .opening-ceremony-wax-button {
+  border-color: var(--antique-paper-crease);
+  background: var(--antique-paper);
+  color: var(--antique-ink);
+}
