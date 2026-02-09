@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Future Self Time Capsule
 
 Send a message to your future self. Choose when to deliver it (specific date or birthday), write text or record audio/video with optional guided prompts, and open it in an antique-style “opening ceremony” when it arrives.
